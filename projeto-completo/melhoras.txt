@@ -1,0 +1,2 @@
+1) Implementado página de museus
+2) links de páginas de museus colocados
