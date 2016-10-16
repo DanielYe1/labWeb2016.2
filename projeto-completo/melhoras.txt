@@ -1,2 +1,4 @@
 1) Implementado página de museus e respectivos links
-3) Implementado página de mapas e respectivos links
+2) Implementado página de mapas e respectivos links
+3) Criada página de cultura com os tópicos:museus, feiras, bibliotecas
+4) Implementado página indo diretamente para os titulos de:museus, feiras ou biblitecas quando clicado nos links
