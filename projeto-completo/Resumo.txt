@@ -1,0 +1,420 @@
+1. Acrescentar logo acima da div container:
+
+    <nav class="navbar navbar-default">
+       <div class="container">
+          ...
+       </div>
+    </nav>
+
+
+2. Acrescentar esta classe à lista não ordenada logo abaixo da div container:
+
+    class="nav navbar-nav"
+
+
+3. Acrescentar a classe abaixo à ul logo abaixo da âncora relativa a cultura:
+
+    class="dropdown-menu"
+
+
+4. Acrescentar a classe abaixo à âncora relativa a Cultura:
+
+    class="dropdown-toggle" data-toggle="dropdown"
+
+
+5. Acrescentar a seta para baixo após a palavra Cultura para ficar claro que se trata de um combo box:
+
+    <span class="caret"></span>
+
+
+6. Para acrescentar o ícone para Mapas:
+
+    <span class="glyphicon glyphicon-globe"></span>
+
+
+7. Acrescentar logo abaixo da div container
+
+   <div class="navbar-header">
+      <a href="#" class="navbar-brand">
+         Rio de Janeiro
+      </a>
+   </div>
+
+
+8. Adicionar ao menu (dentro de navbar-header):
+
+      <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsemenu">
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+      </button>
+
+
+9. Acrescentar esta div acima da <ul class="nav navbar-nav">
+
+    <div class="collapse navbar-collapse" id="collapsemenu">
+
+
+10. Substituir o tag <img src="images/cristo-redentor-1.jpg"> pelo tag abaixo:
+
+    <header class="bgimage hidden-xs"></header>
+
+
+11. Acrescentar o seguinte css:
+
+.bgimage {
+    background-image: url('../images/cristo-redentor-1.jpg');
+    background-position: center center;
+    background-size: cover;
+    height: 400px;
+}
+
+
+12. Acrescentar o css abaixo para remover a barra em branco entre o menu e a imagem do cristo redentor.
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+
+13. Acrescentar uma div com a classe container logo após o tag header com a classe bgimage:
+
+<div class="container">
+
+
+14. Acrescentar a classe jumbotron em torno do elemento <h2>Marcos da Cidade</h2> conforme vem abaixo:
+
+  <br/>
+  <div class="jumbotron">
+     <h2 id="marcos">Marcos da Cidade</h2>
+     <p>Se você acha que ir a Roma e não ver o Papa, ou ir a Nova York e não visitar a Estátua da Liberdade são atitudes imperdoáveis, não deixe de visitar os principais pontos turísticos da Cidade do Rio de Janeiro relacionados abaixo.</p>
+  </div>
+
+
+15. Utilizar as classes row e col-md-4 e col-sm-6 para definir os marcos da cidade
+
+  <div class="row">
+     <section class="col-md-4 col-sm-6">
+        ...
+     </section>
+  </div>
+
+
+16. Acrescentar o atributo class abaixo a cada uma das 6 fotos (marcos da cidade)
+
+    class="img-rounded img-responsive center-block"
+
+
+17. Acrescentar as divs thumbnail e caption:
+
+  <div class="row">
+     <section class="col-md-4 col-sm-6">
+        <div class="thumbnail">
+           ...
+           <div class="caption">
+              ...
+           </div>
+        </div>
+     </section>
+  </div>
+
+
+18. Acrescentar tooltip e popover (É preciso ativá-los com Javascript)
+
+    <a href="#"
+       data-toggle="tooltip"
+       data-placement="top"
+       title="Tom Jobim: Copacabana, princesinha do mar Pelas manhãs tu és a vida a cantar E a tardinha o
+       sol poente Deixa sempre uma saudade na gente">"Princesinha do Mar"</a>
+
+
+    <a tabindex="0"
+       data-toggle="popover"
+       data-title="007 contra o Foguete da Morte"
+       data-trigger="focus"
+       data-placement="bottom"
+       data-content="Filme franco-britânico de acção, aventura, espionagem e ficção científica de 1979, o
+       11.º da série James Bond com Roger Moore no papel do agente secreto.">007 contra o Foguete da Morte</a>
+
+
+19. Criar 3 painéis:
+
+      <div class="panel panel-default">
+         <div class="panel-heading">
+            <h4 class="panel-title">
+                Ilha Grande
+            </h4>
+         </div>
+         <div class="panel-body">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+               dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+               aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+               dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+               officia deserunt mollit anim id est laborum.</p>
+         </div>
+      </div>
+
+      <div class="panel panel-default">
+         <div class="panel-heading">
+            <h4 class="panel-title">
+               Paraty
+            </h4>
+         </div>
+         <div class="panel-body">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+               dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+               aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+               dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+               officia deserunt mollit anim id est laborum.</p>
+         </div>
+      </div>
+
+      <div class="panel panel-default">
+         <div class="panel-heading">
+            <h4 class="panel-title">
+               Búzios e Araial do cabo
+            </h4>
+         </div>
+         <div class="panel-body">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+               dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+               aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+               dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+               officia deserunt mollit anim id est laborum.</p>
+         </div>
+      </div>
+
+
+20. Envolver os painéis com o tag abaixo:
+
+   <div class="panel-group" id="accordion">
+
+
+21. Alterar o panel-title de cada painel para:
+
+    <a href="#ilhaGrande" data-toggle="collapse" data-parent="#accordion">Ilha Grande</a>
+    <a href="#paraty" data-toggle="collapse" data-parent="#accordion">Paraty</a>
+    <a href="#buzios" data-toggle="collapse" data-parent="#accordion">Búzios e Araial do cabo</a>
+
+
+22. Envolver o panel-body de cada painel por:
+
+    <div class="panel-collapse collapse in" id="ilhaGrande">
+    <div class="panel-collapse collapse" id="paraty">
+    <div class="panel-collapse collapse" id="buzios">
+
+
+23. Adicionar o conteúdo abaixo no primeiro painel do accordion
+
+   <div class="container">
+      <ul class="media-list">
+         <div class="row">
+            <div class="col-md-6 noPaddingLeft">
+               <li class="media">
+                  <div class="media-left">
+                     <a href="#">
+                        <img class="media-object formatoImagem" src="images/ilha-grande-01-abraao.jpg"
+                             alt="Vila do Abraão">
+                     </a>
+                  </div>
+                  <div class="media-body">
+                     <h3 class="cabecalho">Vila do Abraão</h3>
+                     <p>
+                        É o principal local de chegada à Ilha Grande. Lá você encontra pousadas, campings,
+                        restaurantes, etc.
+                     </p>
+                  </div>
+               </li>
+            </div>
+
+            <div class="col-md-6 noPaddingLeft">
+            ...
+            </div>
+
+            <div class="col-md-6 noPaddingLeft">
+            ...
+            </div>
+
+            <div class="col-md-6 noPaddingLeft">
+            ...
+            </div>
+         </div>
+      </ul>
+   </div>
+
+
+24. Adicionando as 4 fotos da Ilha Grande
+
+   <div class="container">
+      <ul class="media-list">
+         <div class="row">
+            <div class="col-md-6 noPaddingLeft">
+               <li class="media">
+                  <div class="media-left">
+                     <a href="#">
+                        <img class="media-object formatoImagem" src="images/ilha-grande-01-abraao.jpg"
+                             alt="Vila do Abraão">
+                     </a>
+                  </div>
+                  <div class="media-body">
+                     <h3 class="cabecalho">Vila do Abraão</h3>
+                     <p>
+                        É o principal local de chegada à Ilha Grande. Lá você encontra pousadas, campings,
+                        restaurantes, etc.
+                     </p>
+                  </div>
+               </li>
+            </div>
+
+            <div class="col-md-6 noPaddingLeft">
+               <li class="media">
+                  <div class="media-left">
+                     <a href="#">
+                        <img class="media-object formatoImagem" src="images/ilha-grande-02-lagoa-azul.jpg"
+                             alt="Lagoa Azul">
+                     </a>
+                  </div>
+                  <div class="media-body">
+                     <h3 class="cabecalho">Lagoa Azul</h3>
+                     <p>
+                        Um local muito lindo com água azul turquesa e muitos peixes. Só é possível chegar lá
+                        de barco.
+                     </p>
+                  </div>
+               </li>
+            </div>
+
+            <div class="col-md-6 noPaddingLeft">
+               <li class="media">
+                  <div class="media-left">
+                     <a href="#">
+                        <img class="media-object formatoImagem" src="images/ilha-grande-03-aventureiro.jpg"
+                             alt="Praia do Aventureiro">
+                     </a>
+                  </div>
+                  <div class="media-body">
+                     <h3 class="cabecalho">Praia do Aventureiro</h3>
+                     <p>
+                        Uma das mais bonitas da Ilha Grande. A praia mede 600 metros e o mar é ótimo para a
+                        prática do Surf.
+                     </p>
+                  </div>
+               </li>
+            </div>
+
+            <div class="col-md-6 noPaddingLeft">
+               <li class="media">
+                  <div class="media-left">
+                     <a href="#">
+                        <img class="media-object formatoImagem" src="images/ilha-grande-04-lopes-mendes.jpg"
+                             alt="Lopes Mendes">
+                     </a>
+                  </div>
+                  <div class="media-body">
+                     <h3 class="cabecalho">Lopes Mendes</h3>
+                     <p>
+                        A mais famosa praia da Ilha Grande. São 3 km de areia muito branca e água
+                        cristalina.
+                     </p>
+                  </div>
+               </li>
+            </div>
+         </div>
+      </ul>
+   </div>
+
+
+25. Dois botões para Ilha Grande  (Após a div com a classe container)
+
+       <div class="altura-da-linha">
+          <a href="#" class="btn btn-default btn-block">Mais Informações</a>&nbsp;
+          <a href="cadastro.html" class="btn btn-primary btn-block">Contratar</a>
+       </div>
+
+
+26. Depoimentos
+
+   <br/>
+   <h3>Depoimentos sobre Excursões</h3>
+   <br/>
+   <div class="row">
+      <section class="col-md-4 col-sm-6">
+         <blockquote>
+            <p>Adipisci veritatis esse expedita odit neque quam! Repellat quas ad cum porro amet, maiores, ullam
+               doloremque, ab dolores in magni ea enim. Commodi quidem consequuntur animi nemo pariatur cumque
+               distinctio.</p>
+            <footer>Luis Gustavo Pereira Filho</footer>
+         </blockquote>
+      </section>
+
+      <section class="col-md-4 col-sm-6">
+         <blockquote>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam
+               rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+               explicabo.</p>
+            <footer>Serio Albuquerque</footer>
+         </blockquote>
+      </section>
+
+      <section class="col-md-4 col-sm-6">
+         <blockquote>
+            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
+               dolores eos qui ratione voluptatem sequi nesciunt.</p>
+            <footer>Pedro Arnaldo Soares</footer>
+         </blockquote>
+      </section>
+   </div>
+
+
+27. footer
+
+<div class='footer'>
+   <div class='container'>
+      <div class='row'>
+         <div class='col-sm-4 col-xs-12'>
+            <h4>Nossas Excursões</h4>
+            <p><i>Baia da </i><a href='#'> Ilha Grande</a></p>
+            <p><a href='#'>Paraty</a></p>
+            <p><a href='#'>Búzios e Arraial do Cabo</a></p>
+         </div>
+
+         <div class='col-sm-2 col-xs-6'>
+            <h4>Cultura</h4>
+            <ul class='list-unstyled'>
+               <li><a href='#'>Museus</a></li>
+               <li><a href='#'>Feiras</a></li>
+               <li><a href='#'>Bibliotecas</a></li>
+               <li><a href='#'>Livrarias</a></li>
+            </ul>
+         </div>
+
+         <div class='col-sm-2 col-xs-6'>
+            <h4>Rio à Noite</h4>
+            <ul class='list-unstyled'>
+               <li><a href='#'>Boates</a></li>
+               <li><a href='#'>Bares</a></li>
+               <li><a href='#'>Restaurantes</a></li>
+            </ul>
+         </div>
+
+         <div class='clearfix visible-xs'></div>
+
+         <div class='col-sm-2 col-xs-6'>
+            <h4>Outros</h4>
+            <ul class='list-unstyled'>
+               <li><a href='#'>Carnaval</a></li>
+               <li><a href='#'>Mapas</a></li>
+            </ul>
+         </div>
+
+         <div class='col-sm-2 col-xs-6'>
+            <h4>Contato</h4>
+            <ul class='list-unstyled'>
+               <li><i class='glyphicon glyphicon-globe'></i> Kathira</li>
+               <li><i class='glyphicon glyphicon-phone'></i> (99)99999-9999</li>
+               <li><i class='glyphicon glyphicon-envelope'></i> <a href='mailto:popo@pb.dum.br'>popo@pb.dum.br</a></li>
+            </ul>
+         </div>
+      </div>
+   </div>
+</div>
