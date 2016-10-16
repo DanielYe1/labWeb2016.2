@@ -1,2 +1,2 @@
-1) Implementado página de museus
-2) links de páginas de museus colocados
+1) Implementado página de museus e respectivos links
+3) Implementado página de mapas e respectivos links
