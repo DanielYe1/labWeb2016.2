@@ -3,3 +3,5 @@
 3) Criada página de cultura com os tópicos:museus, feiras, bibliotecas
 4) Implementado página indo diretamente para os titulos de:museus, feiras ou biblitecas quando clicado nos links
 5) Implementado página de carnaval com carrossel
+6) Implementado página do Rio à Noite com os tópicos:boates, bares, restaurantes
+7) Implementado página indo diretamente para os titulos de:boates, bares ou restaurantes quando clicado nos links
