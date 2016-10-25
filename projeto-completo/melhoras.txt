@@ -6,3 +6,5 @@
 6) Implementado página do Rio à Noite com os tópicos:boates, bares, restaurantes
 7) Implementado página indo diretamente para os titulos de:boates, bares ou restaurantes quando clicado nos links
 8) Implementado tabs em "Nossas Excursões", com informações de Paraty e Búzios/Arraial do Cabo.
+9) Melhorado página do Rio á Noite, com imagens com media-left, imagens circulares e tamanhos distintos
+10) Implementado classe imagemLateral no styles.css com respectivos tamanhos
