@@ -5,3 +5,4 @@
 5) Implementado página de carnaval com carrossel
 6) Implementado página do Rio à Noite com os tópicos:boates, bares, restaurantes
 7) Implementado página indo diretamente para os titulos de:boates, bares ou restaurantes quando clicado nos links
+8) Implementado tabs em "Nossas Excursões", com informações de Paraty e Búzios/Arraial do Cabo.
