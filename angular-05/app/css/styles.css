@@ -1,0 +1,27 @@
+/* touched - ao entrar e sair de um campo */
+/* dirty - após digitar algo no campo */
+.ng-invalid.ng-touched {
+  border-color: red;
+}
+.ng-invalid.ng-dirty {
+  border-color: red;
+}
+.ng-invalid.submitted {
+  border-color: red;
+}
+.ng-valid.ng-dirty {
+  border-color: #787A89;
+}
+/*
+@media screen and (min-width: 768px) {
+  .form-horizontal .control-label {
+    padding-top: 0px;
+  }
+}
+*/
+
+.alert {
+  padding: 4px;
+  margin-bottom: 0px;
+  font-size: 13px;
+}

@@ -1,0 +1,459 @@
+<div class="container">
+    <div class="panel panel-success">
+        <div class="panel-heading text-center">
+            <h1>Inscrição Auto Escola Tia Teteca</h1>
+        </div>
+
+        <div class="panel-title">
+            <h2 class="text-center">Cadastro de Usuários</h2>
+            <h3 class="text-center">Cadastro das turmas de 2017.1</h3>
+        </div>
+
+        <div class="panel-body">
+
+            <form [formGroup]="usuarioGroup"
+                  role="form"
+                  class="form-horizontal"
+                  (ngSubmit)="onSubmit(usuarioGroup.valid)"
+                  novalidate>  <!--  #f="ngForm" => removido -->
+
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="nome">Nome:</label>
+                    <div class="col-sm-8">
+                        <!-- A classe input-sm produz uma caixa de texto com uma altura menor.
+                             A outra opção é input-lg (default). -->
+
+                        <!--
+                        We need to associate the form controls to the model as well, because there’s nothing that tells
+                        Angular that these form controls here belong to our form control models. This is where the
+                        formControlName directive comes into play. It’s pretty much the equivalent of an ngModel and
+                        name attribute combination in template-driven forms. Each form control gets a formControlName
+                        directive applied so we can register the controls on the form.
+                        -->
+
+                        <input type="text"
+                               id="nome"
+                               maxlength="60"
+                               [ngClass]="{'form-control': true, 'input-sm': true, 'submitted': submitted}"
+                               formControlName="nome"
+                               placeholder="Informe seu nome">
+
+                        <!--[formControl]="formGrupo.controls['nome']" -->
+                        <!--  class="form-control"  -->
+                        <!--  removidos  [(ngModel)]="usuarioGroup.nome"  #nome="ngModel"   -->
+
+                    </div>
+
+                    <div class="col-sm-8 col-sm-offset-2">
+                        <div *ngIf="formErrors.nome && submitted" class="alert alert-danger">
+                            {{ formErrors.nome }}
+                        </div>
+                        <!--
+                                                Para verificar se ocorreu um erro específico:
+
+                                                <div *ngIf="(usuarioGroup.hasError('required', 'nome') && submitted)"
+                                                     class="alert alert-danger">
+                                                    Campo de preenchimento obrigatório
+                                                </div>
+                        -->
+                    </div>
+
+                    <div class="col-sm-8 col-sm-offset-2">
+                        <kbd>usuarioGroup.controls.nome.value = {{usuarioGroup.controls.nome.value}}</kbd><br/>
+                        <kbd>usuarioGroup.controls.nome.valid = {{usuarioGroup.controls.nome.valid}}</kbd><br/>
+                        <kbd>usuarioGroup.controls.nome.touched = {{usuarioGroup.controls.nome.touched}}</kbd><br/>
+                        <kbd>usuarioGroup.controls.nome.dirty = {{usuarioGroup.controls.nome.dirty}}</kbd><br/>
+                        <kbd>usuarioGroup.controls.nome.pristine = {{usuarioGroup.controls.nome.pristine}}</kbd><br/>
+                        <kbd>submitted = {{submitted}}</kbd><br/>
+                        <kbd>usuarioGroup.hasError('required', 'nome') = {{usuarioGroup.hasError('required',
+                            'nome')}}</kbd><br/>
+                    </div>
+                </div>
+
+
+                <!-- gambiarra inicio -->
+
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="email">Email:</label>
+                    <div class="col-sm-8">
+
+                        <input type="text"
+                               id="email"
+                               [ngClass]="{'form-control': true, 'input-sm': true, 'submitted': submitted}"
+                               formControlName="email"
+                               placeholder="Informe seu email">
+
+                    </div>
+
+                    <div class="col-sm-8 col-sm-offset-2">
+                        <div *ngIf="formErrors.email && submitted" class="alert alert-danger">
+                            {{ formErrors.email }}
+                        </div>
+                    </div>
+
+                    <div class="col-sm-8 col-sm-offset-2">
+                        <kbd>usuarioGroup.controls.email.value = {{usuarioGroup.controls.email.value}}</kbd><br/>
+                        <kbd>usuarioGroup.controls.email.valid = {{usuarioGroup.controls.email.valid}}</kbd><br/>
+                        <kbd>usuarioGroup.controls.email.touched = {{usuarioGroup.controls.email.touched}}</kbd><br/>
+                        <kbd>usuarioGroup.controls.email.dirty = {{usuarioGroup.controls.email.dirty}}</kbd><br/>
+                        <kbd>usuarioGroup.controls.email.pristine = {{usuarioGroup.controls.email.pristine}}</kbd><br/>
+                        <kbd>submitted = {{submitted}}</kbd><br/>
+                        <kbd>usuarioGroup.hasError('required', 'email') = {{usuarioGroup.hasError('required',
+                            'email')}}</kbd><br/>
+                    </div>
+                </div>
+
+
+
+
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="cep">CEP:</label>
+                    <div class="col-sm-8">
+
+                        <input type="text"
+                               id="cep"
+                               maxlength="10"
+                               [ngClass]="{'form-control': true, 'input-sm': true, 'submitted': submitted}"
+                               formControlName="cep"
+                               placeholder="Informe seu cep">
+
+                    </div>
+
+                    <div class="col-sm-8 col-sm-offset-2">
+                        <div *ngIf="formErrors.cep && submitted" class="alert alert-danger">
+                            {{ formErrors.cep }}
+                        </div>
+                    </div>
+
+                    <div class="col-sm-8 col-sm-offset-2">
+                        <kbd>usuarioGroup.controls.cep.value = {{usuarioGroup.controls.cep.value}}</kbd><br/>
+                        <kbd>usuarioGroup.controls.cep.valid = {{usuarioGroup.controls.cep.valid}}</kbd><br/>
+                        <kbd>usuarioGroup.controls.cep.touched = {{usuarioGroup.controls.cep.touched}}</kbd><br/>
+                        <kbd>usuarioGroup.controls.cep.dirty = {{usuarioGroup.controls.cep.dirty}}</kbd><br/>
+                        <kbd>usuarioGroup.controls.cep.pristine = {{usuarioGroup.controls.cep.pristine}}</kbd><br/>
+                        <kbd>submitted = {{submitted}}</kbd><br/>
+                        <kbd>usuarioGroup.hasError('required', 'cep') = {{usuarioGroup.hasError('required',
+                            'cep')}}</kbd><br/>
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="estado">Estado:</label>
+                    <div class="col-sm-8">
+
+                        <input type="text"
+                               id="estado"
+                               [ngClass]="{'form-control': true, 'input-sm': true, 'submitted': submitted}"
+                               formControlName="estado"
+                               placeholder="Informe seu Estado">
+
+                    </div>
+
+                    <div class="col-sm-8 col-sm-offset-2">
+                        <div *ngIf="formErrors.estado && submitted" class="alert alert-danger">
+                            {{ formErrors.estado }}
+                        </div>
+                    </div>
+
+                    <div class="col-sm-8 col-sm-offset-2">
+                        <kbd>usuarioGroup.controls.estado.value = {{usuarioGroup.controls.estado.value}}</kbd><br/>
+                        <kbd>usuarioGroup.controls.estado.valid = {{usuarioGroup.controls.estado.valid}}</kbd><br/>
+                        <kbd>usuarioGroup.controls.estado.touched = {{usuarioGroup.controls.estado.touched}}</kbd><br/>
+                        <kbd>usuarioGroup.controls.estado.dirty = {{usuarioGroup.controls.estado.dirty}}</kbd><br/>
+                        <kbd>usuarioGroup.controls.estado.pristine =
+                            {{usuarioGroup.controls.estado.pristine}}</kbd><br/>
+                        <kbd>submitted = {{submitted}}</kbd><br/>
+                        <kbd>usuarioGroup.hasError('required', 'estado') = {{usuarioGroup.hasError('required',
+                            'estado')}}</kbd><br/>
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="cidade">Cidade:</label>
+                    <div class="col-sm-8">
+
+                        <input type="text"
+                               id="cidade"
+                               [ngClass]="{'form-control': true, 'input-sm': true, 'submitted': submitted}"
+                               formControlName="cidade"
+                               placeholder="Informe seu Cidade">
+
+                    </div>
+
+                    <div class="col-sm-8 col-sm-offset-2">
+                        <div *ngIf="formErrors.cidade && submitted" class="alert alert-danger">
+                            {{ formErrors.cidade }}
+                        </div>
+                    </div>
+
+                    <div class="col-sm-8 col-sm-offset-2">
+                        <kbd>usuarioGroup.controls.cidade.value = {{usuarioGroup.controls.cidade.value}}</kbd><br/>
+                        <kbd>usuarioGroup.controls.cidade.valid = {{usuarioGroup.controls.cidade.valid}}</kbd><br/>
+                        <kbd>usuarioGroup.controls.cidade.touched = {{usuarioGroup.controls.cidade.touched}}</kbd><br/>
+                        <kbd>usuarioGroup.controls.cidade.dirty = {{usuarioGroup.controls.cidade.dirty}}</kbd><br/>
+                        <kbd>usuarioGroup.controls.cidade.pristine =
+                            {{usuarioGroup.controls.cidade.pristine}}</kbd><br/>
+                        <kbd>submitted = {{submitted}}</kbd><br/>
+                        <kbd>usuarioGroup.hasError('required', 'cidade') = {{usuarioGroup.hasError('required',
+                            'cidade')}}</kbd><br/>
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="endereco">Endereço:</label>
+                    <div class="col-sm-8">
+
+                        <input type="text"
+                               id="endereco"
+                               [ngClass]="{'form-control': true, 'input-sm': true, 'submitted': submitted}"
+                               formControlName="endereco"
+                               placeholder="Informe seu Endereço">
+
+                    </div>
+
+                    <div class="col-sm-8 col-sm-offset-2">
+                        <div *ngIf="formErrors.endereco && submitted" class="alert alert-danger">
+                            {{ formErrors.endereco }}
+                        </div>
+                    </div>
+
+                    <div class="col-sm-8 col-sm-offset-2">
+                        <kbd>usuarioGroup.controls.endereco.value = {{usuarioGroup.controls.endereco.value}}</kbd><br/>
+                        <kbd>usuarioGroup.controls.endereco.valid = {{usuarioGroup.controls.endereco.valid}}</kbd><br/>
+                        <kbd>usuarioGroup.controls.endereco.touched =
+                            {{usuarioGroup.controls.endereco.touched}}</kbd><br/>
+                        <kbd>usuarioGroup.controls.endereco.dirty = {{usuarioGroup.controls.endereco.dirty}}</kbd><br/>
+                        <kbd>usuarioGroup.controls.endereco.pristine = {{usuarioGroup.controls.endereco.pristine}}</kbd><br/>
+                        <kbd>submitted = {{submitted}}</kbd><br/>
+                        <kbd>usuarioGroup.hasError('required', 'endereco') = {{usuarioGroup.hasError('required',
+                            'endereco')}}</kbd><br/>
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="complemento">Complemento:</label>
+                    <div class="col-sm-8">
+
+                        <input type="text"
+                               id="complemento"
+                               maxlength="20"
+                               [ngClass]="{'form-control': true, 'input-sm': true, 'submitted': submitted}"
+                               formControlName="complemento"
+                               placeholder="Informe o Complemento">
+
+                    </div>
+
+                    <div class="col-sm-8 col-sm-offset-2">
+                        <div *ngIf="formErrors.complemento && submitted" class="alert alert-danger">
+                            {{ formErrors.complemento }}
+                        </div>
+                    </div>
+
+                    <div class="col-sm-8 col-sm-offset-2">
+                        <kbd>usuarioGroup.controls.complemento.value = {{usuarioGroup.controls.complemento.value}}</kbd><br/>
+                        <kbd>usuarioGroup.controls.complemento.valid = {{usuarioGroup.controls.complemento.valid}}</kbd><br/>
+                        <kbd>usuarioGroup.controls.complemento.touched =
+                            {{usuarioGroup.controls.complemento.touched}}</kbd><br/>
+                        <kbd>usuarioGroup.controls.complemento.dirty = {{usuarioGroup.controls.complemento.dirty}}</kbd><br/>
+                        <kbd>usuarioGroup.controls.complemento.pristine =
+                            {{usuarioGroup.controls.complemento.pristine}}</kbd><br/>
+                        <kbd>submitted = {{submitted}}</kbd><br/>
+                        <kbd>usuarioGroup.hasError('required', 'complemento') = {{usuarioGroup.hasError('required',
+                            'complemento')}}</kbd><br/>
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="cpf">CPF:</label>
+                    <div class="col-sm-3">
+                        <input type="text"
+                               id="cpf"
+                               name="cpf"
+                               maxlength="11"
+                               formControlName="cpf"
+                               [ngClass]="{'form-control': true, 'input-sm': true, 'submitted': submitted}"
+                               placeholder="Informe seu CPF">
+                    </div>
+                    <div class="col-sm-7"></div>
+
+                    <div class="col-sm-8 col-sm-offset-2">
+                        <div *ngIf="formErrors.cpf && submitted" class="alert alert-danger">
+                            {{ formErrors.cpf }}
+                        </div>
+                        <!--
+                                                <div *ngIf="(usuarioGroup.hasError('required', 'cpf') && submitted)"
+                                                     class="alert alert-danger">
+                                                    Campo de preenchimento obrigat&oacute;rio
+                                                </div>
+                                                <div *ngIf="(usuarioGroup.hasError('invalidCPF', 'cpf') && submitted)"
+                                                     class="alert alert-danger">
+                                                    CPF inv&aacute;lido
+                                                </div>
+                        -->
+                    </div>
+                    <div class="col-sm-8 col-sm-offset-2">
+                        <kbd>usuarioGroup.controls.cpf.valid = {{usuarioGroup.controls.cpf.valid}}</kbd><br/>
+                        <kbd>usuarioGroup.controls.cpf.touched = {{usuarioGroup.controls.cpf.touched}}</kbd><br/>
+                        <kbd>usuarioGroup.controls.cpf.dirty = {{usuarioGroup.controls.cpf.dirty}}</kbd><br/>
+                        <kbd>usuarioGroup.controls.cpf.pristine = {{usuarioGroup.controls.cpf.pristine}}</kbd><br/>
+                        <kbd>submitted = {{submitted}}</kbd><br/>
+                        <kbd>usuarioGroup.hasError('required','cpf') = {{usuarioGroup.hasError('required','cpf')}}</kbd><br/>
+                        <kbd>usuarioGroup.hasError('invalidCPF','cpf') =
+                            {{usuarioGroup.hasError('invalidCPF','cpf')}}</kbd><br/>
+                    </div>
+                </div>
+
+
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="cnpj">CNPJ:</label>
+                    <div class="col-sm-3">
+                        <input type="text"
+                               id="cnpj"
+                               name="cnpj"
+                               maxlength="18"
+                               formControlName="cnpj"
+                               [ngClass]="{'form-control': true, 'input-sm': true, 'submitted': submitted}"
+                               placeholder="Informe seu CNPJ">
+                    </div>
+                    <div class="col-sm-7"></div>
+
+                    <div class="col-sm-8 col-sm-offset-2">
+                        <div *ngIf="formErrors.cnpj && submitted" class="alert alert-danger">
+                            {{ formErrors.cnpj }}
+                        </div>
+                    </div>
+                    <div class="col-sm-8 col-sm-offset-2">
+                        <kbd>usuarioGroup.controls.cnpj.valid = {{usuarioGroup.controls.cnpj.valid}}</kbd><br/>
+                        <kbd>usuarioGroup.controls.cnpj.touched = {{usuarioGroup.controls.cnpj.touched}}</kbd><br/>
+                        <kbd>usuarioGroup.controls.cnpj.dirty = {{usuarioGroup.controls.cnpj.dirty}}</kbd><br/>
+                        <kbd>usuarioGroup.controls.cnpj.pristine = {{usuarioGroup.controls.cnpj.pristine}}</kbd><br/>
+                        <kbd>submitted = {{submitted}}</kbd><br/>
+                        <kbd>usuarioGroup.hasError('required','cnpj') =
+                            {{usuarioGroup.hasError('required','cnpj')}}</kbd><br/>
+                        <kbd>usuarioGroup.hasError('invalidCNPJ','cnpj') =
+                            {{usuarioGroup.hasError('invalidCNPJ','cnpj')}}</kbd><br/>
+                    </div>
+                </div>
+
+                <!-- gambiarra fim -->
+
+
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="dataNasc">Data Nasc:</label>
+                    <div class='col-sm-3'>
+                        <input type="date"
+                               id="dataNasc"
+                               name="dataNasc"
+                               placeholder="dd/MM/yyyy"
+                               max="2017-12-31"
+                               formControlName="dataNasc"
+                               [ngClass]="{'form-control': true, 'input-sm': true, 'submitted': submitted}">
+                    </div>
+                    <div class="col-sm-7"></div>
+
+                    <div class="col-sm-8 col-sm-offset-2">
+                        <div *ngIf="formErrors.dataNasc && submitted" class="alert alert-danger">
+                            {{ formErrors.dataNasc }}
+                        </div>
+                        <!--
+                                                <div *ngIf="(usuarioGroup.hasError('required', 'dataNasc') && submitted)"
+                                                     class="alert alert-danger">
+                                                    Campo de preenchimento obrigat&oacute;rio
+                                                </div>
+                        -->
+                    </div>
+                    <div class="col-sm-8 col-sm-offset-2">
+                        <kbd>usuarioGroup.controls.dataNasc.valid = {{usuarioGroup.controls.dataNasc.valid}}</kbd><br/>
+                        <kbd>usuarioGroup.controls.dataNasc.touched =
+                            {{usuarioGroup.controls.dataNasc.touched}}</kbd><br/>
+                        <kbd>usuarioGroup.controls.dataNasc.dirty = {{usuarioGroup.controls.dataNasc.dirty}}</kbd><br/>
+                        <kbd>usuarioGroup.controls.dataNasc.pristine = {{usuarioGroup.controls.dataNasc.pristine}}</kbd><br/>
+                        <kbd>submitted = {{submitted}}</kbd><br/>
+                        <kbd>usuarioGroup.hasError('required', 'dataNasc') = {{usuarioGroup.hasError('required',
+                            'dataNasc')}}</kbd><br/>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label col-sm-2" for="salario">Salário:</label>
+                    <div class="col-sm-3">
+                        <input type="text"
+                               id="salario"
+                               name="salario"
+                               placeholder="Informe seu salário"
+                               formControlName="salario"
+                               [ngClass]="{'form-control': true, 'input-sm': true, 'submitted': submitted}">
+                    </div>
+                    <div class="col-sm-7"></div>
+
+                    <div class="col-sm-8 col-sm-offset-2">
+                        <div *ngIf="formErrors.salario && submitted" class="alert alert-danger">
+                            {{ formErrors.salario }}
+                        </div>
+                        <!--
+                                                <div *ngIf="(usuarioGroup.hasError('required', 'salario') && submitted)"
+                                                     class="alert alert-danger">
+                                                    Campo de preenchimento obrigat&oacute;rio
+                                                </div>
+                                                <div *ngIf="(usuarioGroup.hasError('invalidValorMonetario', 'salario') && submitted)"
+                                                     class="alert alert-danger">
+                                                    Sal&aacute;rio inv&aacute;lido
+                                                </div>
+                        -->
+                    </div>
+
+                    <div class="col-sm-8 col-sm-offset-2">
+                        <kbd>usuarioGroup.controls.salario.valid = {{usuarioGroup.controls.salario.valid}}</kbd><br/>
+                        <kbd>usuarioGroup.controls.salario.touched =
+                            {{usuarioGroup.controls.salario.touched}}</kbd><br/>
+                        <kbd>usuarioGroup.controls.salario.dirty = {{usuarioGroup.controls.salario.dirty}}</kbd><br/>
+                        <kbd>usuarioGroup.controls.salario.pristine =
+                            {{usuarioGroup.controls.salario.pristine}}</kbd><br/>
+                        <kbd>submitted = {{submitted}}</kbd><br/>
+                        <kbd>usuarioGroup.hasError('required', 'salario') = {{usuarioGroup.hasError('required',
+                            'salario')}}</kbd><br/>
+                        <kbd>usuarioGroup.hasError('invalidValorMonetario', 'salario') =
+                            {{usuarioGroup.hasError('invalidValorMonetario', 'salario')}}</kbd><br/>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                        <!-- [disabled]="!usuarioGroup.valid" -->
+                        <button type="submit" class="btn btn-default">
+                            <span class="glyphicon glyphicon-save"></span> Enviar!
+                        </button>
+                    </div>
+                    <div class="col-sm-offset-2 col-sm-10">
+                        <kbd>usuarioGroup.valid = {{usuarioGroup.valid}}</kbd><br/>
+                        <kbd>usuarioGroup.invalid = {{!usuarioGroup.valid}}</kbd><br/>
+                    </div>
+                </div>
+
+            </form>
+            {{ respostaNome }}<br/>
+            {{ respostaEmail }}<br/>
+            {{ respostaCEP }}<br/>
+            {{ respostaEstado }}<br/>
+            {{ respostaCidade }}<br/>
+            {{ respostaEndereco }}<br/>
+            {{ respostaComplemento }}<br/>
+            {{ respostaCPF }}<br/>
+            {{ respostaCNPJ }}<br/>
+            {{ respostaDataNoFormatoToString }}<br/>
+            {{ respostaDataFormatadaComBarra }}<br/>
+            {{ respostaDataCriadaAPartirDoToString}}<br/>
+            {{ respostaSalarioComoFoiDigitado }}<br/>
+            {{ respostaSalarioFormatado }}
+        </div>
+
+        <div class="panel-footer">
+            Rodapé.
+        </div>
+    </div>
+</div>
