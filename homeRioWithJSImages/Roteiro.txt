@@ -1,0 +1,79 @@
+Roteiro
+=======
+
+1. Acrescentar o elemento abaixo na div cuja classe é panel-body de app.component.html
+
+   <lista-de-usuarios></lista-de-usuarios>
+
+
+2. Acrescentar em AppModule no array declarations a classe ListaDeUsuariosComponent
+
+
+3. Acrescentar em AppModule no array providers a classe UsuarioService
+
+   providers:    [ UsuarioService ]
+
+
+4. Formatar o CPF, Salário e Data de Nascimento utilizando os pipes:
+
+    <b>CPF:</b> {{usuario.cpf | cpf}}<br/>
+    <b>Salário:</b> {{usuario.salario | valorMonetario}}<br/>
+    <b>Data Nasc:</b> {{usuario.dataNasc | date: "dd/MM/yyyy"}}
+
+
+5. Criar a classe CpfPipe (cpf.pipe.ts)
+
+import { Pipe, PipeTransform } from '@angular/core';
+
+@Pipe({name: 'cpf'})
+export class CpfPipe implements PipeTransform {
+    transform(valor: string, args: string[]): any {
+        if (!valor) return valor;
+
+        if (valor.length == 11) {
+            return valor.substr(0, 3) + "." + valor.substr(3, 3) + "." + valor.substr(6, 3) + "-" + valor.substr(9);
+        }
+        else {
+            return valor;
+        }
+    }
+}
+
+
+6. Criar a classe ValorMonetarioPipe (valor-monetario.pipe.ts)
+
+import { Pipe, PipeTransform } from '@angular/core';
+
+@Pipe({name: 'valorMonetario'})
+export class ValorMonetarioPipe implements PipeTransform {
+    transform(valor: string, args: string[]): any {
+        if (!valor) return valor;
+
+        if (isNaN(Number(valor))) {
+            var salario = Number(valor.replace(',','.'));
+            var val = salario.toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2, useGrouping: true });
+        }
+        else {
+            var val = Number(valor).toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2, useGrouping: true });
+        }
+
+        return val;
+    }
+}
+
+
+7. Acrescentar as classes ValorMonetarioPipe e CpfPipe no array declarations de AppModule.
+
+
+
+
+
+
+
+
+
+
+
+
+
+

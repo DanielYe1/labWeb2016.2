@@ -1,0 +1,69 @@
+<!-- Aqui não estamos usando containers para que a imagem em background ocupe toda a largura do browser - sem padding -->
+<header class="bgimage hidden-xs"></header>
+
+<div class="container">
+  <div class="row">
+    <section class="col-xs-12">
+
+      <br/>
+      <h3 class="text-center">Selecione sua Excursão</h3>
+      <br/>
+
+      <form class="form-horizontal">
+
+        <div class="form-group">
+          <label class="col-sm-2 control-label" for="selectSite">Excursão</label>
+          <div class="col-sm-8">
+            <select class="form-control" id="selectSite">
+              <option>Faça sua escolha...</option>
+              <option>Ilha Grande</option>
+              <option>Paraty</option>
+              <option>Búzios e Arraial do Cabo</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="col-sm-2 control-label" for="nome">Nome</label>
+          <div class="col-sm-8">
+            <input class="form-control" type="text" id="nome" placeholder="Nome">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="col-sm-2 control-label" for="email">Email</label>
+          <div class="col-sm-8">
+            <input class="form-control" type="email" id="email" placeholder="Email">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <div class="col-sm-8 col-sm-offset-2">
+            <div class="checkbox">
+              <label>
+                <input id="newsLetter" type="checkbox">Receber Promoções e Notícias
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="col-sm-2 control-label" for="comentarios">Comentários</label>
+          <div class="col-sm-8">
+            <textarea class="form-control" id="comentarios"></textarea>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <div class="col-sm-8 col-sm-offset-2">
+            <button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-save"></span> Enviar</button>
+          </div>
+        </div>
+        <br/>
+        <br/>
+        <br/>
+      </form>
+
+    </section>
+  </div><!-- row -->
+</div><!-- content container -->

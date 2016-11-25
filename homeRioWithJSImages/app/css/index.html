@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Bootstrap</title>
+</head>
+<body>
+
+<nav class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+            <a href="#" class="navbar-brand">
+                Rio de Janeiro
+            </a>
+            <button class="navbar-toggle" data-toggle="collapse" data-target="#collapsemenu">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="collapsemenu">
+            <ul class="nav navbar-nav">
+                <li><a href="#excursoes">Excursões</a></li>
+                <li>
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">Cultura <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Museus</a></li>
+                        <li><a href="#">Feiras</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">Bibliotecas</a></li>
+                        <li><a href="#">Livrarias</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Rio à Noite</a></li>
+                <li><a href="#">Carnaval</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-globe"></span> Mapas</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- Aqui não estamos usando containers para que a imagem em background ocupe toda a largura do browser - sem padding -->
+
+<header class="bgimage hidden-xs"></header>
+
+<div class="container">
+
+    <br/>
+    <div class="jumbotron">
+        <h2 id="marcos">Marcos da Cidade</h2>
+        <p>Se você acha que ir a Roma e não ver o Papa, ou ir a Nova York e não visitar a Estátua da Liberdade são
+            atitudes
+            imperdoáveis, não deixe de visitar os principais pontos turísticos da Cidade do Rio de Janeiro relacionados
+            abaixo.</p>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4 col-sm-6">
+            <div class="thumbnail">
+                <img class="img-rounded img-responsive center-block" src="../images/ciclovia-flamengo.jpg" alt="Ciclovias">
+                <div class="caption">
+                    <h3>Ciclovias da Cidade</h3>
+                    <p>O Rio possui uma extensa malha de ciclovias. As principais vias começam na Marina da Glória no
+                        centro da Cidade, passando por toda a Zona Sul até o Leblon.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <div id="pm" class="thumbnail">
+                <img class="img-rounded img-responsive center-block" src="../images/copacabana.jpg" alt="Copacabana">
+                <div class="caption">
+                    <h3>Praia de Copacabana</h3>
+                    <p>Copacabana que é também conhecida como
+                        <a href="#pm"
+                           data-toggle="tooltip"
+                           data-placement="top"
+                           title="Tom Jobim: Copacabana, princesinha do mar Pelas manhãs tu és
+                            a vida a cantar E a tardinha o sol poente Deixa sempre uma
+                            saudade na gente">"Princesinha do Mar"</a>
+                        por causa de uma famosa canção
+                        em sua homenagem, é um dos locais mais conhecidos do Brasil e do mundo.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <div class="thumbnail">
+                <img class="img-rounded img-responsive center-block" src="../images/cristo-redentor.jpg"
+                     alt="Cristo Redentor">
+                <div class="caption">
+                    <h3>Cristo Redentor</h3>
+                    <p>Entre os mais principais pontos turísticos do Rio de Janeiro, está o Corcovado com a estátua
+                        do Cristo Redentor e o Pão de Açucar. De cima de ambos tem-se uma vista magnifíca da
+                        cidade.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <div class="thumbnail">
+                <img class="img-rounded img-responsive center-block" src="../images/lapa.jpg" alt="Lapa">
+                <div class="caption">
+                    <h3>Arcos da Lapa</h3>
+                    <p>A Lapa é um local super democrático e rico em diversidade, que abriga todas as tribos do
+                        cidade. Lá podemos encontrar bons restaurantes e bares, alguns com música ao vivo, e muita
+                        concentração de jovens.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <div class="thumbnail">
+                <img class="img-rounded img-responsive center-block" src="../images/maracana.jpg" alt="Maracanã">
+                <div class="caption">
+                    <h3>Estádio Maracanã</h3>
+                    <p>Construído para abrigar a Copa do Mundo de 1950, o Maracanã já foi o maior estádio de
+                        futebol do mundo, mas perdeu este status em reforma recente. Visitá-lo, especialmente em
+                        dias de jogos, pode ser algo inesquecível.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+            <div class="thumbnail">
+                <img class="img-rounded img-responsive center-block" src="../images/pao-de-acucar.jpg" alt="Pão de Açucar">
+                <div class="caption">
+                    <h3>Pão de Açucar</h3>
+                    <p>Localizado no bairro da Urca, o bondinho é uma das principais atrações turísticas da
+                        cidade. Liga a Praia Vermelha ao morro da Urca e ao morro do Pão de Açúcar. O bondinho
+                        foi cenário do filme
+                        <a tabindex="0"
+                           data-toggle="popover"
+                           data-title="007 contra o Foguete da Morte"
+                           data-trigger="focus"
+                           data-placement="bottom"
+                           data-content="Filme franco-britânico de acção, aventura, espionagem e ficção científica
+                           de 1979, o 11.º da série James Bond com Roger Moore no papel do agente
+                           secreto.">007 contra o Foguete da Morte</a>, de 1979.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h3 id="excursoes">Nossas Excursões</h3>
+
+    <div class="panel-group" id="accordion">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a href="#ilhaGrande"
+                       data-toggle="collapse"
+                       data-parent="#accordion">Ilha Grande</a>
+                </h4>
+            </div>
+            <div class="panel-collapse collapse in" id="ilhaGrande">
+                <div class="panel-body">
+                    <div class="container">
+                        <ul class="media-list">
+                            <div class="row">
+                                <div class="col-md-6 noPaddingLeft">
+                                    <li class="media">
+                                        <div class="media-left">
+                                            <a href="#">
+                                                <img class="media-object formatoImagem"
+                                                     src="../images/ilha-grande-01-abraao.jpg"
+                                                     alt="Vila do Abraão">
+                                            </a>
+                                        </div>
+                                        <div class="media-body">
+                                            <h3 class="cabecalho">Vila do Abraão</h3>
+                                            <p>
+                                                É o principal local de chegada à Ilha Grande. Lá você encontra pousadas,
+                                                campings,
+                                                restaurantes, etc.
+                                            </p>
+                                        </div>
+                                    </li>
+                                </div>
+
+                                <div class="col-md-6 noPaddingLeft">
+                                    <li class="media">
+                                        <div class="media-left">
+                                            <a href="#">
+                                                <img class="media-object formatoImagem"
+                                                     src="../images/ilha-grande-02-lagoa-azul.jpg"
+                                                     alt="Lagoa Azul">
+                                            </a>
+                                        </div>
+                                        <div class="media-body">
+                                            <h3 class="cabecalho">Lagoa Azul</h3>
+                                            <p>
+                                                Um local muito lindo com água azul turquesa e muitos peixes. Só é
+                                                possível chegar lá
+                                                de barco.
+                                            </p>
+                                        </div>
+                                    </li>
+                                </div>
+
+                                <div class="col-md-6 noPaddingLeft">
+                                    <li class="media">
+                                        <div class="media-left">
+                                            <a href="#">
+                                                <img class="media-object formatoImagem"
+                                                     src="../images/ilha-grande-03-aventureiro.jpg"
+                                                     alt="Praia do Aventureiro">
+                                            </a>
+                                        </div>
+                                        <div class="media-body">
+                                            <h3 class="cabecalho">Praia do Aventureiro</h3>
+                                            <p>
+                                                Uma das mais bonitas da Ilha Grande. A praia mede 600 metros e o mar é
+                                                ótimo para a
+                                                prática do Surf.
+                                            </p>
+                                        </div>
+                                    </li>
+                                </div>
+
+                                <div class="col-md-6 noPaddingLeft">
+                                    <li class="media">
+                                        <div class="media-left">
+                                            <a href="#">
+                                                <img class="media-object formatoImagem"
+                                                     src="../images/ilha-grande-04-lopes-mendes.jpg"
+                                                     alt="Lopes Mendes">
+                                            </a>
+                                        </div>
+                                        <div class="media-body">
+                                            <h3 class="cabecalho">Lopes Mendes</h3>
+                                            <p>
+                                                A mais famosa praia da Ilha Grande. São 3 km de areia muito branca e
+                                                água
+                                                cristalina.
+                                            </p>
+                                        </div>
+                                    </li>
+                                </div>
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="altura-da-linha">
+                        <a href="#" class="btn btn-default btn-block">Mais Informações</a>&nbsp;
+                        <a href="../cadastro.html" class="btn btn-primary btn-block">Contratar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="panel panel-success">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a href="#paraty" data-toggle="collapse" data-parent="#accordion">Paraty</a>
+                </h4>
+            </div>
+            <div class="panel-collapse collapse" id="paraty">
+                <div class="panel-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et
+                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum
+                        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                        qui
+                        officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel panel-danger">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a href="#buzios"
+                       data-toggle="collapse"
+                       data-parent="#accordion">Búzios e Araial do cabo</a>
+                </h4>
+            </div>
+            <div class="panel-collapse collapse" id="buzios">
+                <div class="panel-body">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et
+                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum
+                        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                        qui
+                        officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <h3>Depoimentos sobre Excursões</h3>
+
+    <section class="col-md-4 col-sm-6">
+        <blockquote>
+            <p>Adipisci veritatis esse expedita odit neque quam! Repellat quas ad cum porro amet, maiores, ullam
+                doloremque, ab dolores in magni ea enim. Commodi quidem consequuntur animi nemo pariatur cumque
+                distinctio.</p>
+            <footer>Luis Gustavo Pereira Filho</footer>
+        </blockquote>
+    </section>
+
+    <section class="col-md-4 col-sm-6">
+        <blockquote>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam
+                rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+                explicabo.</p>
+            <footer>Serio Albuquerque</footer>
+        </blockquote>
+    </section>
+
+    <section class="col-md-4 col-sm-6">
+        <blockquote>
+            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
+                dolores eos qui ratione voluptatem sequi nesciunt.</p>
+            <footer>Pedro Arnaldo Soares</footer>
+        </blockquote>
+    </section>
+</div>
+
+<div class='footer'>
+    <div class='container'>
+        <div class='row'>
+            <div class='col-sm-4 col-xs-12'>
+                <h4>Nossas Excursões</h4>
+                <p><i>Baia da </i><a href='#'> Ilha Grande</a></p>
+                <p><a href='#'>Paraty</a></p>
+                <p><a href='#'>Búzios e Arraial do Cabo</a></p>
+            </div>
+
+            <div class='col-sm-2 col-xs-6'>
+                <h4>Cultura</h4>
+                <ul class='list-unstyled'>
+                    <li><a href='#'>Museus</a></li>
+                    <li><a href='#'>Feiras</a></li>
+                    <li><a href='#'>Bibliotecas</a></li>
+                    <li><a href='#'>Livrarias</a></li>
+                </ul>
+            </div>
+
+            <div class='col-sm-2 col-xs-6'>
+                <h4>Rio à Noite</h4>
+                <ul class='list-unstyled'>
+                    <li><a href='#'>Boates</a></li>
+                    <li><a href='#'>Bares</a></li>
+                    <li><a href='#'>Restaurantes</a></li>
+                </ul>
+            </div>
+
+            <div class='clearfix visible-xs'></div>
+
+            <div class='col-sm-2 col-xs-6'>
+                <h4>Outros</h4>
+                <ul class='list-unstyled'>
+                    <li><a href='#'>Carnaval</a></li>
+                    <li><a href='#'>Mapas</a></li>
+                </ul>
+            </div>
+
+            <div class='col-sm-2 col-xs-6'>
+                <h4>Contato</h4>
+                <ul class='list-unstyled'>
+                    <li><i class='glyphicon glyphicon-globe'></i> Kathira</li>
+                    <li><i class='glyphicon glyphicon-phone'></i> (99)99999-9999</li>
+                    <li><i class='glyphicon glyphicon-envelope'></i> <a href='mailto:popo@pb.dum.br'>popo@pb.dum.br</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="../js/jquery-1.12.4.js"></script>
+<script src="../js/bootstrap.js"></script>
+<script src="../js/script.js"></script>
+</body>
+</html>

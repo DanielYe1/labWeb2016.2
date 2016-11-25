@@ -1,0 +1,11 @@
+
+
+<div class="col-md-4 col-sm-6" *ngFor="let usuario of usuarios">
+    <div class="thumbnail">
+        <img class="img-rounded img-responsive center-block" src={{usuario.foto}}>
+        <div class="caption">
+            <h3>{{usuario.nome}}</h3>
+            <p>{{usuario.descricao}}</p>
+        </div>
+    </div>
+</div>

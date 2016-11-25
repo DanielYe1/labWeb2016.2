@@ -1,0 +1,52 @@
+html {
+    height: 102%;
+}
+
+@media screen and (min-width: 600px) {
+    h1 {
+        font-size: 32px;
+    }
+    h2 {
+        font-size: 29px;
+        margin-bottom: 0px;
+    }
+    .panel-body {
+        padding-top: 0px;
+    }
+}
+@media screen and (max-width: 599px) {
+    h1 {
+        font-size: 22px;
+    }
+    h2 {
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+    .panel-body {
+        padding-top: 0px;
+    }
+}
+@media screen and (max-width: 500px) {
+    h1 {
+        font-size: 20px;
+    }
+    h2 {
+        font-size: 18px;
+        margin-bottom: 0px;
+    }
+    .panel-body {
+        padding-top: 0px;
+    }
+}
+@media screen and (max-width: 400px) {
+    h1 {
+        font-size: 19px;
+    }
+    h2 {
+        font-size: 17px;
+        margin-bottom: 0px;
+    }
+    .panel-body {
+        padding-top: 0px;
+    }
+}

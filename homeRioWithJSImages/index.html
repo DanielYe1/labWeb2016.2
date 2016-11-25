@@ -1,0 +1,54 @@
+<html>
+<head>
+    <title>Angular 2</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="app/css/site.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="app/css/rio.css">
+
+    <!-- 1. Load libraries -->
+    <!-- Polyfill(s) for older browsers -->
+    <script src="node_modules/core-js/client/shim.min.js"></script>
+    <script src="node_modules/zone.js/dist/zone.js"></script>
+    <script src="node_modules/reflect-metadata/Reflect.js"></script>
+    <script src="node_modules/systemjs/dist/system.src.js"></script>
+    <!-- 2. Configure SystemJS -->
+    <script src="systemjs.config.js"></script>
+
+    <!-- 3. Bootstrap -->
+    <script src="app/js/jquery-1.12.4.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="app/js/script.js"></script>
+    <script src="app/js/rio.js"></script>
+
+    <script>
+        /*  System.import('app/main').catch(function(err){ console.error(err); });  - Ver systemjs.config.js */
+        System.import('app').catch(function (err) {
+            console.error(err);
+        });
+    </script>
+</head>
+
+<!-- 4. Display the application -->
+<body>
+
+
+<div id="menu"></div>
+<div id="corpo-home"></div>
+<div id="rodape"></div>
+
+<script src="js/jquery-1.12.4.js"></script>
+<script src="js/bootstrap.js"></script>
+<script>
+    $(function () {
+        $("#menu").load("app/paginas/menu.html");
+        $("#corpo-home").load("app/paginas/corpo-home.html");
+        $("#rodape").load("app/paginas/rodape.  html");
+    });
+</script>
+
+
+<angular-app>Loading...</angular-app>
+</body>
+</html>
