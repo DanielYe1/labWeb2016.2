@@ -2,8 +2,150 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="571925e7-6aa5-4c03-b889-02f3c8a59610" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-05/Leia-me.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/angular-05/Roteiro.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/.idea/angular-21-menu-busca-alteracao-inclusao-remocao-selecao-inc.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/.idea/jsLibraryMappings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/.idea/typescript-compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/README.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/_arquivos/pesquisa-de-aluno.component.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/_arquivos/pesquisa-de-aluno.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/_arquivos/pesquisa-de-aluno.component.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/_arquivos/pesquisa-de-aluno.component.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/_arquivos/pesquisa-de-aluno.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/_arquivos/pesquisa-de-aluno.service.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/_arquivos/pesquisa-de-aluno.service.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/_arquivos/pesquisa-de-aluno.service.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/aluno.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/aluno.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/aluno.service.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/aluno.service.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/aluno.service.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/aluno.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/app.component.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/app.component.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/app.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/app.module.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/app.module.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/app.module.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/app.routing.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/app.routing.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/app.routing.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/css/exibir-aluno.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/css/exibir-alunos.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/css/pesquisa-de-aluno.component.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/css/site.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/exibir-aluno.component.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/exibir-aluno.component.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/exibir-aluno.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/exibir-alunos.component.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/exibir-alunos.component.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/exibir-alunos.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/home.component.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/home.component.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/home.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/images/font/Flaticon.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/images/font/Flaticon.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/images/font/Flaticon.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/images/font/Flaticon.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/images/font/_flaticon.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/images/font/flaticon.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/images/font/flaticon.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/images/png/avatar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/images/png/boy-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/images/png/boy-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/images/png/boy-3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/images/png/boy-4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/images/png/boy-5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/images/png/boy.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/images/png/girl-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/images/png/girl-2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/images/png/girl-3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/images/png/girl-4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/images/png/girl-5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/images/png/girl-6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/images/png/girl-7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/images/png/girl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/images/png/man-1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/images/png/man.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/images/svg/avatar-1.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/images/svg/avatar-10.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/images/svg/avatar-11.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/images/svg/avatar-2.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/images/svg/avatar-3.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/images/svg/avatar-4.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/images/svg/avatar-5.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/images/svg/avatar-6.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/images/svg/avatar-7.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/images/svg/avatar-8.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/images/svg/avatar-9.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/images/svg/boy-1.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/images/svg/boy-2.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/images/svg/boy-3.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/images/svg/boy-4.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/images/svg/boy-5.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/images/svg/boy.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/images/svg/girl-1.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/images/svg/girl-2.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/images/svg/girl-3.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/images/svg/girl-4.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/images/svg/girl-5.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/images/svg/girl-6.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/images/svg/girl-7.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/images/svg/girl.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/images/svg/man-1.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/images/svg/man.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/in-memory-data.service.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/in-memory-data.service.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/in-memory-data.service.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/js/jquery-1.12.4.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/js/script.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/js/web-animations.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/main.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/main.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/partials/app.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/partials/exibir-aluno.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/partials/exibir-alunos.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/partials/home.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/partials/pesquisa-de-aluno.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/partials/quemsomos.component.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/pesquisa-de-aluno.component.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/pesquisa-de-aluno.component.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/pesquisa-de-aluno.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/pesquisa-de-aluno.service.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/pesquisa-de-aluno.service.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/pesquisa-de-aluno.service.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/profissao.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/profissao.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/profissao.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/quemsomos.component.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/quemsomos.component.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/app/quemsomos.component.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/systemjs.config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/tsconfig.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/typings.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/typings/globals/core-js/index.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/typings/globals/core-js/typings.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/typings/globals/jasmine/index.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/typings/globals/jasmine/typings.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/typings/globals/node/index.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/typings/globals/node/typings.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/finalProject/typings/index.d.ts" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-05/.idea/workspace.xml" afterPath="$PROJECT_DIR$/angular-05/.idea/workspace.xml" />
     </list>
     <ignored path="labWeb2016.2.iws" />
@@ -26,80 +168,20 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="melhoras.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projeto-completo/melhoras.txt">
+        <entry file="file://$PROJECT_DIR$/projeto_site_rio/melhoras.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="76" selection-start-line="9" selection-start-column="76" selection-end-line="9" selection-end-column="76" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="noite.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projeto-completo/noite.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="55" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rodape.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projeto-completo/paginas/rodape.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="46" column="18" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projeto-completo/home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/angular-10-lista-como-componente/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-190">
+            <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="corpo-noite.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projeto-completo/paginas/corpo-noite.html">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1890">
-              <caret line="126" column="82" selection-start-line="126" selection-start-column="82" selection-end-line="126" selection-end-column="82" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#4;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#5;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#5;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#div#5;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#6;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#7;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="menu.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projeto-completo/paginas/menu.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+            <state relative-caret-position="579">
+              <caret line="174" column="71" selection-start-line="174" selection-start-column="71" selection-end-line="174" selection-end-column="71" />
               <folding />
             </state>
           </provider>
@@ -132,6 +214,7 @@
         <option value="$PROJECT_DIR$/projeto-completo/paginas/rodape.html" />
         <option value="$PROJECT_DIR$/angular-04/app/app.component.ts" />
         <option value="$PROJECT_DIR$/angular-04/app/partials/app.component.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -143,9 +226,10 @@
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/angular-05/node_modules" />
+    <handled-path value="$PROJECT_DIR$/homeRioWithJSImages/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1313" />
+    <option name="x" value="53" />
     <option name="y" value="24" />
     <option name="width" value="1313" />
     <option name="height" value="744" />
@@ -175,7 +259,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -204,21 +287,65 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="angular-10-lista-como-componente" />
+              <option name="myItemId" value="projeto_site_rio" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="labWeb2016.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="labWeb2016.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="homeRioWithJSImages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="labWeb2016.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="labWeb2016.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="final_project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="labWeb2016.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="labWeb2016.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular-05" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/angular-05" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path" value="/usr/bin/node" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -523,13 +650,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1313" y="24" width="1313" height="744" extended-state="6" />
+    <frame x="53" y="24" width="1313" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32884902" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32884902" sideWeight="0.49428788" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2498096" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32884902" sideWeight="0.5057121" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884902" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -570,7 +697,8 @@
     <MESSAGE value="Implemented media-left at Rio á Noite page's" />
     <MESSAGE value="Implemented media-left at Rio a Noite page's" />
     <MESSAGE value="Implemented media-left at &quot;Rio a Noite&quot; page's" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented media-left at &quot;Rio a Noite&quot; page's" />
+    <MESSAGE value="Fixed some bugs&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed some bugs&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -579,348 +707,67 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/projeto-completo/js/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24345">
-          <caret line="1623" column="58" selection-start-line="1623" selection-start-column="55" selection-end-line="1623" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projeto-completo/paginas/corpo-mapas.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projeto-completo/paginas/rodape.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projeto-completo/paginas/menu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="83" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projeto-completo/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projeto-completo/mapas.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projeto-completo/melhoras.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projeto-completo/paginas/corpo-home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4320">
-          <caret line="288" column="42" selection-start-line="288" selection-start-column="42" selection-end-line="288" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projeto-completo/paginas/corpo-cultura.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2865">
-          <caret line="191" column="0" selection-start-line="191" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projeto-completo/js/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24345">
-          <caret line="1623" column="58" selection-start-line="1623" selection-start-column="55" selection-end-line="1623" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projeto-completo/paginas/corpo-mapas.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projeto-completo/paginas/rodape.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projeto-completo/paginas/menu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="83" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projeto-completo/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projeto-completo/mapas.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projeto-completo/melhoras.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projeto-completo/paginas/corpo-home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4320">
-          <caret line="288" column="42" selection-start-line="288" selection-start-column="42" selection-end-line="288" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projeto-completo/paginas/corpo-cultura.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2865">
-          <caret line="191" column="0" selection-start-line="191" selection-start-column="0" selection-end-line="191" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projeto-completo/js/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24345">
-          <caret line="1623" column="58" selection-start-line="1623" selection-start-column="55" selection-end-line="1623" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projeto-completo/paginas/corpo-mapas.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projeto-completo/paginas/rodape.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projeto-completo/paginas/menu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="83" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projeto-completo/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="1059" column="3" selection-start-line="1059" selection-start-column="2" selection-end-line="1059" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projeto-completo/cadastro.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projeto-completo/cultura.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projeto-completo/js/jquery-1.12.4.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="1834" column="34" selection-start-line="1834" selection-start-column="29" selection-end-line="1834" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projeto-completo/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projeto-completo/js/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24285">
-          <caret line="1623" column="58" selection-start-line="1623" selection-start-column="55" selection-end-line="1623" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projeto-completo/mapas.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/projeto-completo/paginas/rodape.html" />
+    <entry file="file://$PROJECT_DIR$/projeto-completo/paginas/menu.html" />
+    <entry file="file://$PROJECT_DIR$/projeto-completo/home.html" />
+    <entry file="file://$PROJECT_DIR$/projeto-completo/mapas.html" />
+    <entry file="file://$PROJECT_DIR$/projeto-completo/melhoras.txt" />
+    <entry file="file://$PROJECT_DIR$/projeto-completo/paginas/corpo-home.html" />
+    <entry file="file://$PROJECT_DIR$/projeto-completo/paginas/corpo-cultura.html" />
+    <entry file="file://$PROJECT_DIR$/projeto-completo/js/bootstrap.js" />
+    <entry file="file://$PROJECT_DIR$/projeto-completo/paginas/corpo-mapas.html" />
+    <entry file="file://$PROJECT_DIR$/projeto-completo/paginas/rodape.html" />
+    <entry file="file://$PROJECT_DIR$/projeto-completo/paginas/menu.html" />
+    <entry file="file://$PROJECT_DIR$/projeto-completo/home.html" />
+    <entry file="file://$PROJECT_DIR$/projeto-completo/mapas.html" />
+    <entry file="file://$PROJECT_DIR$/projeto-completo/melhoras.txt" />
+    <entry file="file://$PROJECT_DIR$/projeto-completo/paginas/corpo-home.html" />
+    <entry file="file://$PROJECT_DIR$/projeto-completo/paginas/corpo-cultura.html" />
+    <entry file="file://$PROJECT_DIR$/projeto-completo/js/bootstrap.js" />
+    <entry file="file://$PROJECT_DIR$/projeto-completo/paginas/corpo-mapas.html" />
+    <entry file="file://$PROJECT_DIR$/projeto-completo/paginas/rodape.html" />
+    <entry file="file://$PROJECT_DIR$/projeto-completo/paginas/menu.html" />
+    <entry file="file://$PROJECT_DIR$/projeto-completo/css/bootstrap.css" />
+    <entry file="file://$PROJECT_DIR$/projeto-completo/cadastro.html" />
+    <entry file="file://$PROJECT_DIR$/projeto-completo/cultura.html" />
+    <entry file="file://$PROJECT_DIR$/projeto-completo/js/jquery-1.12.4.js" />
+    <entry file="file://$PROJECT_DIR$/projeto-completo/js/script.js" />
+    <entry file="file://$PROJECT_DIR$/projeto-completo/js/bootstrap.js" />
+    <entry file="file://$PROJECT_DIR$/projeto-completo/mapas.html" />
     <entry file="file://$PROJECT_DIR$/projeto-completo/Resumo.txt" />
-    <entry file="file://$PROJECT_DIR$/projeto-completo/carnaval.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projeto-completo/paginas/corpo-mapas.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projeto-completo/paginas/corpo-carnaval.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1350">
-          <caret line="108" column="0" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projeto-completo/paginas/corpo-cadastro.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="49" column="32" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projeto-completo/paginas/corpo-cultura.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2445">
-          <caret line="163" column="22" selection-start-line="163" selection-start-column="22" selection-end-line="163" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projeto-completo/images/rua2.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projeto-completo/images/rua1.jpeg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projeto-completo/images/rua3.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projeto-completo/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projeto-completo/paginas/corpo-noite.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1890">
-          <caret line="126" column="82" selection-start-line="126" selection-start-column="82" selection-end-line="126" selection-end-column="82" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#4;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#5;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#5;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#div#5;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#6;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#7;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projeto-completo/paginas/menu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/projeto-completo/carnaval.html" />
+    <entry file="file://$PROJECT_DIR$/projeto-completo/paginas/corpo-mapas.html" />
+    <entry file="file://$PROJECT_DIR$/projeto-completo/paginas/corpo-carnaval.html" />
+    <entry file="file://$PROJECT_DIR$/projeto-completo/paginas/corpo-cadastro.html" />
+    <entry file="file://$PROJECT_DIR$/projeto-completo/paginas/corpo-cultura.html" />
+    <entry file="file://$PROJECT_DIR$/projeto-completo/images/rua2.jpg" />
+    <entry file="file://$PROJECT_DIR$/projeto-completo/images/rua1.jpeg" />
+    <entry file="file://$PROJECT_DIR$/projeto-completo/images/rua3.jpg" />
+    <entry file="file://$PROJECT_DIR$/projeto-completo/css/styles.css" />
+    <entry file="file://$PROJECT_DIR$/projeto-completo/paginas/corpo-noite.html" />
+    <entry file="file://$PROJECT_DIR$/projeto-completo/paginas/menu.html" />
     <entry file="file://$PROJECT_DIR$/angular-04/app/app.component.ts" />
-    <entry file="file://$PROJECT_DIR$/projeto-completo/paginas/corpo-home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="388" column="96" selection-start-line="388" selection-start-column="96" selection-end-line="388" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/projeto-completo/paginas/corpo-home.html" />
     <entry file="file://$PROJECT_DIR$/angular-04/package.json" />
-    <entry file="file://$PROJECT_DIR$/projeto-completo/melhoras.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="76" selection-start-line="9" selection-start-column="76" selection-end-line="9" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/projeto-completo/melhoras.txt" />
     <entry file="file://$PROJECT_DIR$/angular-04/index.html" />
     <entry file="file://$PROJECT_DIR$/angular-04/app/partials/app.component.html" />
-    <entry file="file://$PROJECT_DIR$/projeto-completo/noite.html">
+    <entry file="file://$PROJECT_DIR$/projeto-completo/noite.html" />
+    <entry file="file://$PROJECT_DIR$/projeto-completo/paginas/rodape.html" />
+    <entry file="file://$PROJECT_DIR$/projeto-completo/home.html" />
+    <entry file="file://$PROJECT_DIR$/angular-10-lista-como-componente/index.html" />
+    <entry file="file://$PROJECT_DIR$/projeto_site_rio/melhoras.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="55" selection-start-line="20" selection-start-column="55" selection-end-line="20" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projeto-completo/paginas/rodape.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="46" column="18" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projeto-completo/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/angular-10-lista-como-componente/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-190">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="579">
+          <caret line="174" column="71" selection-start-line="174" selection-start-column="71" selection-end-line="174" selection-end-column="71" />
           <folding />
         </state>
       </provider>
