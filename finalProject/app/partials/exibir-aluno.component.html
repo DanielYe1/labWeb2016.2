@@ -1,0 +1,191 @@
+<h2 class="text-center">Cadastro de Clientes</h2>
+<!-- Adicionar  -->
+<h4 id="mensagem" class="text-center" [style.color]="getCor()" [style.visibility]="getVisibilidade()">{{mensagem}}</h4>
+<!-- Fim adicionar  -->
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <div *ngIf="aluno">
+                <div class="media-list">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="media">
+                                <div class="media-left">
+                                    <img class="media-object formatoImagem" src="app/images/png/{{aluno.foto}}"
+                                         alt="{{aluno.nome}}">
+                                </div>
+                                <div class="media-body">
+                                    <form #f="ngForm" name="myForm" class="form-horizontal" novalidate>
+                                        <fieldset [disabled]="isDesabilitado">
+                                            <legend>Inf. Básicas</legend>
+
+                                            <div class="form-group form-group-sm">
+                                                <label class="col-sm-2 control-label" for="nome">Nome</label>
+                                                <div class="col-sm-9">
+                                                    <input [(ngModel)]="aluno.nome" name="nome" class="form-control"
+                                                           id="nome" (keyup)="mudaValores(aluno, 1)" required>
+                                                </div>
+                                                <div class="col-sm-1"></div>
+                                                <div class="col-sm-8 col-sm-offset-2">
+                                                    nome.valido = {{nomeValido}} <br>
+                                                    nome.value = {{aluno.nome}} <br>
+                                                    nome.dirty = {{nomeDirty}}
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group form-group-sm">
+                                                <label class="control-label col-sm-2">Sexo</label>
+                                                <div class="col-sm-10">
+                                                    <input type="radio" [(ngModel)]="aluno.sexo" name="sexo" value="M"
+                                                           (click)="mudaValores(aluno, 7)"> Masculino
+                                                </div>
+                                                <div class="col-sm-10 col-sm-offset-2">
+                                                    <input type="radio" [(ngModel)]="aluno.sexo" name="sexo" value="F"
+                                                           (click)="mudaValores(aluno, 7)"> Feminino
+                                                    &nbsp;&nbsp;
+                                                </div>
+                                                <div class="col-xs-3 col-sm-7"></div>
+                                                <div class="col-sm-9 col-sm-offset-2">
+                                                    sexo.valido = {{sexoValido}}<br>
+                                                    sexo.value = {{aluno.sexo}}<br>
+                                                    sexo.dirty = {{sexoDirty}}
+                                                </div>
+                                            </div>
+
+
+                                            <div class="form-group form-group-sm">
+                                                <label class="control-label col-xs-12 col-sm-2"
+                                                       for="prof">Profissão</label>
+                                                <div class="col-xs-9 col-sm-3">
+                                                    <select id="prof"
+                                                            name="prof"
+                                                            [(ngModel)]="aluno.profissao"
+                                                            class="form-control input-sm"
+                                                            required>
+                                                        <option value="30">-- Escolha uma profissão --</option>
+                                                        <option *ngFor="let prof of profissoes" [value]="prof.id"
+                                                                (select)="mudaValores(aluno, 8)">
+                                                            {{prof.label}}
+                                                        </option>
+                                                    </select>
+                                                </div>
+                                                <div class="col-xs-3 col-sm-7"></div>
+                                                <div class="col-sm-8 col-sm-offset-2">
+                                                    profissao.valido = {{profissaoValido}}<br>
+                                                    profissao.value = {{profissaoValor}}<br>
+                                                    profissao.dirty = {{profissaoDirty}}
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group form-group-sm">
+                                                <label class="control-label col-xs-12 col-sm-2"
+                                                       for="telefone">Telefone</label>
+                                                <div class="col-xs-9 col-sm-3">
+                                                    <input [(ngModel)]="aluno.telefone" name="telefone"
+                                                           class="form-control" id="telefone"
+                                                           (keyup)="mudaValores(aluno, 2)" required>
+                                                </div>
+                                                <div class="col-xs-3 col-sm-7"></div>
+                                                <div class="col-sm-8 col-sm-offset-2">
+                                                    telefone.valid = {{telefoneValido}} <br>
+                                                    talefone.value = {{aluno.telefone}} <br>
+                                                    telefone.dirty = {{telefoneDirty}}
+                                                </div>
+                                            </div>
+
+                                        </fieldset>
+                                        <br/>
+                                        <fieldset [disabled]="isDesabilitado">
+                                            <legend>Endereço</legend>
+                                            <div class="form-group form-group-sm">
+                                                <label class="col-sm-2 control-label" for="endereco">Logradouro</label>
+                                                <div class="col-sm-9">
+                                                    <input required [(ngModel)]="aluno.endereco" name="endereco"
+                                                           class="form-control" (keyup)="mudaValores(aluno, 3)"
+                                                           type="text"
+                                                           id="endereco">
+                                                </div>
+                                                <div class="col-sm-1"></div>
+                                                <div class="col-sm-8 col-sm-offset-2">
+                                                    lougradouro.valido = {{logradouroValido}} <br>
+                                                    logradouro.value = {{aluno.endereco}}
+                                                    logradouro.dirty = {{logradouroDirty}}
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group form-group-sm">
+                                                <label class="col-sm-2 control-label" for="bairro">Bairro</label>
+                                                <div class="col-sm-9">
+                                                    <input required [(ngModel)]="aluno.bairro" name="bairro"
+                                                           class="form-control" type="text"
+                                                           id="bairro" (keyup)="mudaValores(aluno,4)">
+                                                </div>
+                                                <div class="col-sm-1"></div>
+                                                <div class="col-sm-8 col-sm-offset-2">
+                                                    bairro.valido = {{bairroValido}} <br>
+                                                    bairro.value = {{aluno.bairro}}<br>
+                                                    bairro.dirty = {{bairroDirty}}
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group form-group-sm">
+                                                <label class="col-sm-2 control-label" for="cidade">Cidade</label>
+                                                <div class="col-sm-9">
+                                                    <input required [(ngModel)]="aluno.cidade" name="cidade"
+                                                           class="form-control" type="text"
+                                                           id="cidade" (keyup)="mudaValores(aluno, 5)">
+                                                </div>
+                                                <div class="col-sm-1"></div>
+                                                <div class="col-sm-8 col-sm-offset-2">
+                                                    cidade.valida = {{cidadeValido}} <br>
+                                                    cidade.value = {{aluno.cidade}}<br>
+                                                    cidade.dirty = {{cidadeDirty}}
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group form-group-sm">
+                                                <label class="col-xs-12 col-sm-2 control-label"
+                                                       for="estado">Estado</label>
+                                                <div class="col-xs-5 col-sm-2">
+                                                    <input required [(ngModel)]="aluno.estado" name="estado"
+                                                           class="form-control" type="text"
+                                                           id="estado" (keyup)="mudaValores(aluno, 6)">
+                                                </div>
+                                                <div class="col-xs-7 col-sm-8"></div>
+                                                <div class="col-sm-8 col-sm-offset-2">
+                                                    estado.valido = {{estadoValido}}<br>
+                                                    estado.value = {{aluno.estado}}<br>
+                                                    estado.dirty = {{estadoDirty}}
+                                                </div>
+                                            </div>
+                                        </fieldset>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="wrapper">
+                    <!-- Adicionar  -->
+                    <button *ngIf="exibirEditar" class="btn btn-primary" (click)="editavel()">
+                        <span class="glyphicon glyphicon-edit"></span> Editar
+                    </button>
+                    <button *ngIf="exibirAlterar" [disabled]="!f.valid" class="btn btn-primary"
+                            (click)="alterar(aluno)">
+                        <span class="glyphicon glyphicon-save"></span> Alterar
+                    </button>
+                    <button *ngIf="exibirCadastrar" [disabled]="!f.valid" class="btn btn-primary"
+                            (click)="cadastrar(aluno)">
+                        <span class="glyphicon glyphicon-save"></span> Salvar
+                    </button>
+                    <button class="btn btn-warning" (click)="voltar()">
+                        <span class="glyphicon glyphicon-backward"></span> Voltar
+                    </button>
+                </div>
+                <br/>
+                <br/>
+                <br/>
+            </div>
+        </div>
+    </div>
+</div>
